@@ -22,7 +22,7 @@ server.get('/api/users', async (req, res) =>{
         })
     }
 })
-
+ //fixing code 
 server.get('/api/users/:id', async (req, res) =>{
     try{
         const {id} = req.params
